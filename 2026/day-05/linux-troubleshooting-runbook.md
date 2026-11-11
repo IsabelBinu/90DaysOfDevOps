@@ -55,6 +55,6 @@ Accept-Ranges: bytes
 
 - Logs
 1. journalctl -u runbook-demo -n 50 --no-pager - Display the latest 50 log entries for a specific systemd service named runbook-demo.
-(--no-pager) - Disbales pagination
+(--no-pager) - Disables pagination
 -- No entries --
 2. tail -n 50 /var/log/syslog - displays the last 50 lines of a log file
