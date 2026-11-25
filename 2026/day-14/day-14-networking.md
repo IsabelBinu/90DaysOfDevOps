@@ -32,6 +32,8 @@ Commands
 3. traceroute google.com - the complete path your packets take across the network — every router ("hop") between your computer and the destination — along with how long each leg of the journey takes.
 ![alt text](image-2.png)
 4. sudo ss -tulpn - shows every TCP and UDP port your machine is listening on, along with the exact process (name and PID) that owns each one.
+
+
 | Flag | Meaning                                                                                                                             |
 | ---- | ----------------------------------------------------------------------------------------------------------------------------------- |
 | -t   | Show TCP sockets                                                                                                                    |
